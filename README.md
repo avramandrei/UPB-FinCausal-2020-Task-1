@@ -1,2 +1,3 @@
-# FinCausal2020
-This repository contains the code for the system that obtained the 2nd place at FinCausal 2020  (first subtask only).
+# UPB-FinCausal-2020
+
+This repository contains the ensemble used by the UPB team to obtain the 2nd place at the 1st subtask of [FinCausal 2020](http://wp.lancs.ac.uk/cfie/fincausal2020/).
