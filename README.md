@@ -6,7 +6,7 @@ This repository contains the ensemble used by the UPB team to obtain the 2nd pla
   <img src="https://raw.githubusercontent.com/avramandrei/UPB-FinCausal-2020-Task-1/main/resources/Ensemble-Figure.png">
 </p>
 
-The ensemble can be downloaded from [here](http://swarm.cs.pub.ro/~ccercel/UPB-Fincausal2020-best-ensemble.zip).
+The ensemble can be downloaded from [here](https://swarm.cs.pub.ro/~ccercel/UPB-Fincausal2020-best-ensemble.zip).
 
 ## Installation
 
