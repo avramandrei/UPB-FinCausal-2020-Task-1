@@ -1,6 +1,6 @@
 # UPB FinCausal 2020 Task 1
 
-This repository contains the ensemble used by the UPB team to obtain the 2nd place at the [FinCausal 2020](http://wp.lancs.ac.uk/cfie/fincausal2020/) Task 1. The ensemble is composed of five Transformer-based models: Bert-Large, RoBERTa-Large, ALBERT-Base, FinBERT-Base and SciBERT-base.
+This repository contains the ensemble used by the UPB team to obtain the 2nd place at the [FinCausal 2020](http://wp.lancs.ac.uk/cfie/fincausal2020/) Task 1. The ensemble is composed of five Transformer-based models: Bert-Large, RoBERTa-Large, ALBERT-Base, FinBERT-Base and SciBERT-base. The training of the models was done using the [HuggingFace](https://github.com/huggingface/transformers) library.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/avramandrei/UPB-FinCausal-2020-Task-1/main/resources/Ensemble-Figure.png">
@@ -10,7 +10,7 @@ The ensemble can be downloaded from [here](https://swarm.cs.pub.ro/~ccercel/UPB-
 
 ## Installation
 
-Make sure you have Python3 and PyTorch installed. Install the dependencies via pip:
+Make sure you have Python3 and PyTorch installed. Then, install the dependencies via pip:
 
 ```
 pip install -r requirements.txt
