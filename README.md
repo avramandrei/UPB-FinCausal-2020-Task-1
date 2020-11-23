@@ -18,10 +18,21 @@ pip install -r requirements.txt
 
 ## Prediction
 
-To make a prediction run the `predict.py` script and give it an input file with a sentence on each line and the path to the ensemble of models. The script will output a file with 1 or 0 on each line, corresponding to the sentence being causal or not being causal, respectively.
+To make a prediction run the `predict.py` script and give it an input file with a sentence on each line and the path to the ensemble of models.
 
 ```
 python3 predict.py [input_path] [ensemble_path] [--output_path]
+```
+
+The script will output a file with 1 or 0 on each line, for each model and for the ensemble, corresponding to the sentence being causal or not being causal, respectively. 
+
+```
+albert-base     bert-large      finbert-base    roberta-large   scibert-base    ensemble        
+0               0               0               0               0               0               
+0               0               0               0               0               0               
+1               1               1               1               1               1               
+1               1               1               1               1               1               
+1               1               1               1               1               1               
 ```
 
 ## Ensemble Performance
