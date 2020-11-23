@@ -26,6 +26,8 @@ python3 predict.py [input_path] [models_path] [--output_path]
 
 ## Ensemble Performance
 
+We depict the performance of each individual model and of the ensemble on both validation dataset (split explained in paper) and on the evaluation dataset.
+
 | Model | Valid-Prec | Valid-Rec | Valid-F1c | Test-Prec | Test-Rec | Test-F1 |
 --------| :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
 BERT-Large | 95.81 | 96.15 | 95.77 | 97.10 | 97.02 | 97.05 |
