@@ -2,6 +2,10 @@
 
 This repository contains the ensemble used by the UPB team to obtain the 2nd place at the [FinCausal 2020](http://wp.lancs.ac.uk/cfie/fincausal2020/) Task 1. The ensemble is composed of five Transformer-based models: Bert-Large, RoBERTa-Large, ALBERT-Large, FinBERT-Base and SciBERT-base.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/avramandrei/UPB-FinCausal-2020-Task-1/main/resources/Ensemble-Figure.png">
+</p>
+
 The ensemble can be downloaded from [here](http://swarm.cs.pub.ro/~ccercel/UPB-Fincausal2020-best-ensemble.zip).
 
 ## Installation
@@ -19,3 +23,8 @@ To make a prediction run the `predict.py` script and give it an input file with 
 ```
 python3 predict.py [input_path] [models_path] [--output_path]
 ```
+
+## Ensemble Performance
+
+
+
