@@ -48,5 +48,26 @@ FinBERT-Base | 93.88 | 94.71 | 93.92 | 94.08 | 94.30 | 94.18 |
 SciBERT-Base | 95.67 | 95.99 | 95.75 | 96.77 | 96.83 | 96.89 | 
 Ensemble | - | - | - | **97.53** | **97.59** | **97.55** |
 
+## Cite
+Please consider citing the following [paper](https://www.aclweb.org/anthology/2020.fnp-1.8.pdf) as a thank you to the authors: 
+```
+@inproceedings{ionescu-etal-2020-upb,
+    title = "{UPB} at {F}in{C}ausal-2020, Tasks 1 {\&} 2: Causality Analysis in Financial Documents using Pretrained Language Models",
+    author = "Ionescu, Marius  and
+      Avram, Andrei-Marius  and
+      Dima, George-Andrei  and
+      Cercel, Dumitru-Clementin  and
+      Dascalu, Mihai",
+    booktitle = "Proceedings of the 1st Joint Workshop on Financial Narrative Processing and MultiLing Financial Summarisation",
+    month = dec,
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    publisher = "COLING",
+    url = "https://www.aclweb.org/anthology/2020.fnp-1.8",
+    pages = "55--59",
+    abstract = "Financial causality detection is centered on identifying connections between different assets from financial news in order to improve trading strategies. FinCausal 2020 - Causality Identification in Financial Documents {--} is a competition targeting to boost results in financial causality by obtaining an explanation of how different individual events or chain of events interact and generate subsequent events in a financial environment. The competition is divided into two tasks: (a) a binary classification task for determining whether sentences are causal or not, and (b) a sequence labeling task aimed at identifying elements related to cause and effect. Various Transformer-based language models were fine-tuned for the first task and we obtained the second place in the competition with an F1-score of 97.55{\%} using an ensemble of five such language models. Subsequently, a BERT model was fine-tuned for the second task and a Conditional Random Field model was used on top of the generated language features; the system managed to identify the cause and effect relationships with an F1-score of 73.10{\%}. We open-sourced the code and made it available at: https://github.com/avramandrei/FinCausal2020.",
+}
+```
+
 
 
