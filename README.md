@@ -49,7 +49,7 @@ SciBERT-Base | 95.67 | 95.99 | 95.75 | 96.77 | 96.83 | 96.89 |
 Ensemble | - | - | - | **97.53** | **97.59** | **97.55** |
 
 ## Cite
-Please consider citing the following [paper](https://www.aclweb.org/anthology/2020.fnp-1.8.pdf) as a thank you to the authors: 
+If you are using this repository, please consider citing the following [paper](https://www.aclweb.org/anthology/2020.fnp-1.8.pdf) as a thank you to the authors: 
 ```
 @inproceedings{ionescu-etal-2020-upb,
     title = "{UPB} at {F}in{C}ausal-2020, Tasks 1 {\&} 2: Causality Analysis in Financial Documents using Pretrained Language Models",
