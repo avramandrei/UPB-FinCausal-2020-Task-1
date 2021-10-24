@@ -20,8 +20,9 @@ if __name__ == "__main__":
     models = []
     for model_path in os.listdir(args.ensemble_path):
         print("Loading model from: {}".format(os.path.join(args.ensemble_path, model_path)))
-
-        tokenizer = AutoTokenizer.from_pretrained(os.path.join(args.ensemble_path, model_path))
+        
+        model_name_path = os.path.join(args.ensemble_path, model_path)
+        tokenizer = AutoTokenizer.from_pretrained(model_name_path if "scibert" not in model_name_path else "bert-base-uncased")
         model = torch.load(os.path.join(args.ensemble_path, model_path, "model.pt"), map_location=device)
         model.fine_tune = False
         model.eval()
